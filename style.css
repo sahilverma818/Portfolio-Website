@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: #fbf7f7;
+    color:black;
+}
+
+.infoContainer{
+    /* background-color: blue; */
+    height: 68vh;
+    width: 80vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 20px;
+
+}
+
+.hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreInfo{
+    font-size: 20px;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: black;
+    background-color: white;
+} 
+
+/* Services Section */
+
+.services{
+    background-color: whitesmoke;
+    padding: 2vh 8vw 2vh 8vw;
+}
+
+.serviceIntro h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;    
+}
+
+.serviceIntro h3{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.serviceItems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.serviceContent{
+    padding: 30px;
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.serviceContent h2{
+    padding-bottom: 2px;
+}
+
+.serviceContent img{
+    width: 20%;
+}
+
+
+/* Projects Part */
+
+.projects{
+    background-color: whitesmoke;
+    padding: 2vh 8vw 2vh 8vw;
+}
+
+.projectIntro h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;    
+}
+
+.projectIntro h3{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.projectItems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.projectContent{
+    padding: 30px;
+    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.projectContent h2{
+    padding-bottom: 2px;
+}
+
+.projectContent img{
+    width: 20%;
+}
+
+.projectContent button{
+    margin-top: 10px;
+    padding: 9px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.projectContent button:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* The Fun Part */
+
+.hobbies{
+    padding: 2vh 8vw 2vh 8vw;
+}
+
+.hobbiesIntro h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;    
+}
+
+.hobbiesIntro h3{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.hobbiesItem{
+    padding-top: 8px;
+}
+
+.card{
+    display: inline;
+    padding-left: 10px;
+    /* box-shadow: 10px 10px gray; */
+}
+
+.card img{
+    width : 300px;
+}
+
+
+
+
+/* footer Part */
+
+.contact{
+    padding: 2vh 8vw 2vh 8vw;
+    background-color: black;
+    color: white;
+}
+
+.contactIntro h1{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;    
+}
+
+.contactIntro h3{
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.contactInfo{
+    padding-top: 70px;
+    padding-left: 20px;
+    /* width: 50%; */
+}
+
+.contactInfo h3{
+    padding-bottom: 4px;
+}
+
+.contactInfo p{
+    font-size: 28px;
+}
+
+
+
+.addSocial{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.address{
+    padding: 20px;
+}
+
+.address h3{
+    font-family: 'Arvo', serif;
+}
+
+.follow{
+    padding: 20px;
+}
+
+.follow h3{
+    font-family: 'Arvo', serif;
+}
+
+.follow a{
+    color: white;
+    font-size: 28px;
+    padding: 5px 5px 5px 0px;
+}
+
+.credit{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
